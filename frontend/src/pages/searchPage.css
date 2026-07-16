@@ -1,0 +1,169 @@
+/* SearchPage styles (avoid inline styles for webhint no-inline-styles) */
+
+.search-page {
+  padding: 24px;
+  max-width: 900px;
+}
+
+.search-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a5c2e;
+}
+
+.search-form {
+  margin-bottom: 24px;
+}
+
+.search-form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.search-input-wrap {
+  flex: 1;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 44px;
+  font-size: 15px;
+  border: 1px solid #c8e6d0;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+}
+
+.search-submit {
+  padding: 12px 24px;
+  background: #4a7a5a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-submit:disabled {
+  background: #c0dd97;
+  cursor: not-allowed;
+}
+
+.search-error {
+  padding: 16px;
+  background: #fee;
+  color: #c00;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.search-results-wrap {
+  display: block;
+}
+
+.no-answer {
+  padding: 24px;
+  text-align: center;
+  background: #f5f5f5;
+  border-radius: 10px;
+  color: #666;
+}
+
+.no-results {
+  color: #7a9a7a;
+  text-align: center;
+  padding: 40px;
+}
+
+.search-summary {
+  font-size: 13px;
+  color: #7a9a7a;
+  margin-bottom: 16px;
+}
+
+.search-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-card {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e8f5ee;
+}
+
+.search-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 8px;
+}
+
+.search-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-card-docname {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a5c2e;
+}
+
+.search-tag {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.search-score-badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #e8f5ee;
+  color: #1a5c2e;
+  white-space: nowrap;
+}
+
+.search-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.search-meta-item {
+  font-size: 12px;
+  color: #7a9a7a;
+}
+
+.search-source-path {
+  font-size: 12px;
+  color: #7a9a7a;
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-preview {
+  font-size: 13px;
+  color: #4a5a4a;
+  line-height: 1.5;
+}
+
+.search-initial {
+  color: #7a9a7a;
+  text-align: center;
+  padding: 60px;
+}
